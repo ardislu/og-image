@@ -52,8 +52,8 @@ function getArray(stringOrArray: string[] | string | undefined): string[] {
 
 function getDefaultImages(images: string[], theme: Theme): string[] {
     const defaultImage = theme === 'light'
-        ? 'logo.svg'
-        : 'logo.svg';
+        ? 'https://og-image.ardislu.dev/logo.svg'
+        : 'https://og-image.ardislu.dev/logo.svg';
 
     if (!images || !images[0]) {
         return [defaultImage];
